@@ -24,5 +24,4 @@ def find_the_cheese(snacks)
     true_cheese = cheese_types.include?("#{item}")
     cheese.push("#{true_cheese}")
   end
-  return cheese
 end
